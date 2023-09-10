@@ -1,0 +1,195 @@
+@import url(/css/root.css);
+
+/* General */
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    text-align: center;
+    padding: 15em 0;
+}
+
+/* Header Left */
+
+.header {
+    background-color: hsl(0, 0%, 100%);
+    width: 650px;
+    text-align: left;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header__desktop {
+    width: 325px;
+    float: left;
+}
+
+.header__img {
+    border-radius: 15px 0 0 15px;
+    width: 100%;
+}
+
+/* Section Right */
+
+.section {
+    padding: 2.5em 2.5em 1.5em 2em;
+    width: 325px;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section__h2 {
+    color: hsl(228, 12%, 48%);
+    font-size: 0.8em;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+.section__h1 {
+    color: hsl(212, 21%, 14%);
+    font-size: 2.1em;
+    line-height: 1em;
+    padding: 0.7em 0;
+    font-family: 'Fraunces', serif;
+}
+
+.section__p {
+    word-spacing: 0.2em;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+/* Price */
+
+.section__number {
+    padding: 2.3em 0;
+}
+
+.section__price {
+    font-size: 2em;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    margin-right: 0.7em;
+}
+
+.section__descont {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    text-decoration:line-through;
+}
+
+.section__price, .section__descont {
+    display: inline-block;
+}
+
+/* Button */
+
+.section__button {
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button__h3 {
+    padding: 1.2em 0;
+    word-spacing: 0.3em;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.button__icon {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}
+
+/* Mobile */
+
+.header__mobile {
+    display: none;
+}
+
+/* Links */
+
+.attribution { 
+    padding: 1em;
+    font-size: 11px; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        padding: 2em 2em;
+    }
+
+    .header__desktop {
+        display: none;
+    }
+
+    .header__mobile {
+        display: block;
+        width: 100%;
+    }
+    
+    .header__img {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .section {
+        width: 100%;
+        padding: 3em;
+    }
+
+    .section__h2 {
+        font-size: 1.4em;
+    }
+
+    .section__h1 {
+        font-size: 4em;
+    }
+
+    .section__p {
+        font-size: 1.58em;
+        line-height: 1.4em;
+    }
+
+    .section__price {
+        padding: 0.7em 0;
+        font-size: 3.5em;
+    }
+
+    .section__descont {
+        font-size: 1.58em;
+    }
+
+    .button__h3 {
+        font-size: 1.7em;
+    }
+
+    .button__icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .attribution {
+        padding: 1em 0;
+        width: 600px;
+        text-align: center;
+        font-size: 1em;
+    }
+}
