@@ -1,21 +1,20 @@
-# Frontend Mentor - Results summary component solution
+# Frontend Mentor - Card-Component solution
 
 Los usuarios deberían poder:
 
 - Ver el diseño óptimo para la interfaz según el tamaño de pantalla de su dispositivo
 - Ver estados de desplazamiento y enfoque para todos los elementos interactivos en la página
-- **Bonificación**: use los datos JSON locales para completar dinámicamente el contenido
 
 ### Captura de pantalla
 
-![](/imagenes/Capturas/Captura%20de%20pantalla%20Desktop.png)
-![](/imagenes/Capturas/Captura%20de%20pantalla%20Mobile.png)
+![](/capturas/Captura%20de%20pantalla%20Desktop.png)
+![](/capturas/Captura%20de%20pantalla%20Mobile.png)
 
 
 ### Links
 
-- Solution URL: [Añado la URL de la solucion](https://github.com/Zessar/Componentes-Resultados)
-- Live Site URL: [Add live site URL here](zessar.github.io)
+- Solution URL: [Añado la URL de la solucion](https://github.com/Zessar/Card-Colonia-Price)
+- Live Site URL: [Add live site URL here](https://zessar.github.io/Card-Colonia-Price/)
 
 ## Mi proceso
 
