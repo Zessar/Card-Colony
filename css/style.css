@@ -134,7 +134,11 @@ body {
 @media only screen and (max-width: 375px) {
 
     body {
-        padding: 2em 2em;
+        padding: 2em 1em;
+    }
+
+    .header {
+        width: calc(350px - 2em);
     }
 
     .header__desktop {
@@ -151,45 +155,45 @@ body {
     }
 
     .section {
-        width: 100%;
+        width: 350px;
         padding: 3em;
     }
 
     .section__h2 {
-        font-size: 1.4em;
+        font-size: 1em;
     }
 
     .section__h1 {
-        font-size: 4em;
+        font-size: 2em;
     }
 
     .section__p {
-        font-size: 1.58em;
+        font-size: 16px;
         line-height: 1.4em;
     }
 
     .section__price {
         padding: 0.7em 0;
-        font-size: 3.5em;
+        font-size: 2em;
     }
 
     .section__descont {
-        font-size: 1.58em;
+        font-size: 1em;
     }
 
     .button__h3 {
-        font-size: 1.7em;
+        font-size: 1em;
     }
 
     .button__icon {
-        width: 30px;
-        height: 30px;
+        width: 15px;
+        height: 15px;
     }
 
     .attribution {
         padding: 1em 0;
-        width: 600px;
+        width: 300px;
         text-align: center;
-        font-size: 1em;
+        font-size: 0.6em;
     }
 }
